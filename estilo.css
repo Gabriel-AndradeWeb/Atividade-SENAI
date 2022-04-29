@@ -8,11 +8,11 @@
     margin: 0 auto;
     width: 1050px;
     height: 616px;
+  
 }
 
 .menu{
     display: flex;
-    background-color: rgb(255, 255, 255);
 }
 
 
@@ -21,12 +21,10 @@
     
     height: 178px;
     margin: 0 auto;
-    background:rgb(255, 255, 255);
     color: rgb(255, 0, 0);
 }
 
 #banner ul{
-    display: flex;
     list-style: none;
     margin-top: 90px;
 }
@@ -47,15 +45,14 @@
 
 
 #link{
-    width: 150px;
+    width: 154px;
     height: 800px;
-    background: rgb(255, 255, 255);
+    background-color: #fef0c9;
     margin-left: 104px;  
 }
 
 #link ul{
     list-style: none;
-    margin-top: 20px; 
 }
 
 #link ul li{
@@ -76,7 +73,7 @@
     height: 800px;
     margin-top: -800px;
     margin-left: 260px;
-    background: rgb(255, 249, 249);
+    background-color: #fef0c9;
     text-align: center;
 
 }
@@ -95,9 +92,10 @@
     height: 50px;
     margin: 0 auto 200;
     text-align: center;
-    border: solid;
     color: red;
    }
+
+ 
     
 
 

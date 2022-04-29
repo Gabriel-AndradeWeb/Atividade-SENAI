@@ -5,9 +5,10 @@
 
 
 #container{
-    width: 1000px;
+    width: 1200px;
     margin: 20px auto;
-    height: 50vh;
+    background-color: #fef0c9;
+    height: 100vh;
 }
 
 .area-principal{
@@ -17,18 +18,21 @@
 .banner{
     background-color: black;
     width: 100%;
-    height: 120px;
+    height: 300px;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
 }
 
 .botoes{
-    background-color: aqua;
-    width: 34%;
-    
+    width: 40%;  
 }
 
 .texto{
     width: 61%;
-    background-color: rgb(255, 0, 0);
+ 
 }
 
 .video{
@@ -53,4 +57,42 @@
 .video4{
     background-color: rgb(43, 183, 226);
     width: 27vh;
+}
+
+
+
+ul{
+   display: flex; 
+   list-style: none;
+   flex-direction: column;
+}
+
+ul li{
+    margin: 20px 0px;
+ }
+
+ul li a{
+    text-decoration: none;
+    background-color: red;
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.texto P{
+    text-align: justify;
+}
+
+footer{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+   
+    background-color: #fef0c9;
 }
